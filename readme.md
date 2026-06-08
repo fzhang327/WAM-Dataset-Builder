@@ -8,6 +8,8 @@ conda create -n wam_dataset python=3.10 -y
 conda activate wam_dataset
 conda install numpy scipy matplotlib scikit-learn -y
 
+---
+
 ## Overview
 
 This project demonstrates a complete pipeline for converting raw robot demonstrations into structured event-level data suitable for World Action Models (WAM), skill learning, and robotics foundation models.
