@@ -10,6 +10,11 @@ conda install numpy scipy matplotlib scikit-learn -y
 ```
 ---
 
+| Single Trajectory: Alignment & Segmentation | Global Dataset: Statistics & Clustering |
+| :---: | :---: |
+| <img src="media/readme/baseline_rigid.gif" width="280"/> | <img src="media/readme/ours_compliant.gif" width="280"/> |
+| *Spatiotemporal alignment of video and action features (Steps 1 & 2) alongside atomic event segmentation based on kinematic valleys and gripper transitions (Step 3).* | *Global dataset insights showcasing event duration distribution, a 2D cluster bucket heatmap for balanced sampling, and PCA dimensionality reduction of high-dimensional features.* |
+
 ## Overview
 
 This project demonstrates a complete pipeline for converting raw robot demonstrations into structured event-level data suitable for World Action Models (WAM), skill learning, and robotics foundation models.
