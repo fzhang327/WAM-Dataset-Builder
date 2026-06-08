@@ -1,7 +1,7 @@
 # WAM Dataset Builder
 # Conda Setup Guide (WAM Dataset Builder)
 
-## 1. Create Environment
+## Create Environment
 
 ```bash
 conda create -n wam_dataset python=3.10 -y
