@@ -1,4 +1,12 @@
 # WAM Dataset Builder
+# Conda Setup Guide (WAM Dataset Builder)
+
+## 1. Create Environment
+
+```bash
+conda create -n wam_dataset python=3.10 -y
+conda activate wam_dataset
+conda install numpy scipy matplotlib scikit-learn -y
 
 ## Overview
 
